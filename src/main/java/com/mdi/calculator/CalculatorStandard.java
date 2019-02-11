@@ -50,7 +50,10 @@ public class CalculatorStandard {
 	        	default:
 	        		System.out.println("\nMauvaise opération");
         	}
-        	System.out.println("RES : "+oldValue+"\n\n");
+        	System.out.println("RES : "+oldValue);
+        	
+        	System.out.println("\nStop? (o/n)\n\n");
+        	if(scan.next().equals("o")) break;
         }
 	}
 }
