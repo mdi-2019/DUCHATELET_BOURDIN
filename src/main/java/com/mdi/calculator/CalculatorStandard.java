@@ -28,7 +28,7 @@ public class CalculatorStandard {
         	else {
         		b = Integer.parseInt(bChoice);
         	}
-        	
+
 
             System.out.println("\nQuelle opération voulez-vous faire ?\n\t+,-,*,ou /");
         	String opChoice = scan.next();
