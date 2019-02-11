@@ -20,5 +20,13 @@ public class App
         
         System.out.println(mode);
         
+        if(mode == Mode.SCIENTIFIC){
+        	new CalculatorScientific();
+        }        	
+        else{
+        	new CalculatorStandard();
+        }
+
+        
     }
 }
