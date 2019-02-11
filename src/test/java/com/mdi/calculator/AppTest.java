@@ -17,4 +17,14 @@ public class AppTest
     {
         assertTrue( true );
     }
+    @Test
+    public void standardAddition()
+    {
+        assertTrue(1+2==3);
+    }
+    @Test
+    public void standardSoustraction()
+    {
+        assertTrue(1-1==0);
+    }
 }
